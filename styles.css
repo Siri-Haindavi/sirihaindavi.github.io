@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Lato', 'futura pt', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     color: #feffff;
     line-height: 1.6;
     background: linear-gradient(
@@ -345,10 +345,6 @@ footer {
 .feedback-box {
     margin: 1em;
     padding: 2em;
-  
-
-
-
    
     
 }
@@ -434,5 +430,42 @@ margin-left: -35px;
   animation-name: fade;
   animation-duration: 1.5s;
   animation-fill-mode: forwards; 
+}
+
+/* Antartica */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+th, td {
+  border: 1px solid rgb(255, 254, 254);
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #ccc;
+  color:#000;
+  font-weight: bold;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-container {
+  margin-right: 20px; 
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container img {
+  width: 350px; 
+  height: auto; 
+  margin-left: 10px; 
 }
 
